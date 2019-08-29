@@ -13,14 +13,23 @@
 </head>
 <body>
 	<div class="page-header">
-		<button onclick="clickme()" class="btn"><span>Click Me!</span></button>
+		<button onclick="night()" class="btn"><span>Click Me!</span></button>
 		<div class="cubes">Hello Pike</div>
 		<div class="cube">Bye Pike</div>
 	</div>
 	<div class="big-block">
-		<div class="green-block">
-			<div class="rad"></div>
+		<div id="night" class="green-block">
+			<div id="rad" class="rad"></div>
 		</div>
 	</div>
+	<script>
+		function night () {
+			var night = document.getElementById("night");
+			var rad = document.getElementById("rad");
+			rad.style.boxShadow = "0 0 50px #d6caca";
+			rad.style.backgroundColor = "#d6caca";
+			night.style.backgroundColor = "#22174f";
+		};
+	</script>
 </body>
 </html>
