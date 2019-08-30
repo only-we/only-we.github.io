@@ -41,7 +41,7 @@
 	transition: all 3s ease-in-out;
 	
 	animation-name: rad;
-	-moz-animation-duration: 19s;
+	-moz-animation-duration: 20s;
 	-moz-animation-timing-function: linear;
 	-moz-animation-iteration-count: infinite;
 }
