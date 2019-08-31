@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Оплетка руля Пермь</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header-page">
+			<div class="logo"></div>
+			<h1 class="title-home">Оплетка руля</h1>
+			<div class="city">город: Пермь</div>
+		</header>
+		<main class="main-content">
+			<section class="section-content">
+				<h2 class="opletka">Для чего нужна оплетка?</h2>
+				<div class="content">
+					<p class="description">В первую очередь для защиты руля от истирания,
+					для скрытия потертостей на руле.
+					Оплетка улучшает сцепление между руками водителя и 
+					автомобильным рулем, исключает скольжение рук по 
+					рулю и его прокручивание. Утолщение руля при появлении 
+					оплетки помогает лучше чувствовать руль.
+					А так же оплетка отлично впишется в дизайн салона вашего 
+					автомобиля.</p>
+					<span class="span-text">Почему стоит заказать оплетку на руль у нас?</span>
+					<ul>
+						<li>Установка занимает не более 1 часа</li>
+						<li>Фиксированная цена 700руб</li>
+						<li>Гарантия 2 недели</li>
+					</ul>
+					<button class="btn">Написать нам</button>
+				</div>
+			</section>
+
+			<div class="slider-box">
+				<div class="wrap-slider">
+					<div class="slider">
+						<a class="prew" onclick="pluseSlides(-1)">&#10094</a>
+						<a class="next" onclick="pluseSlides(1)">&#10095</a>
+
+						<div class="myslides">
+							<img src="img/2.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/3.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/4.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/5.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/6.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/7.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/8.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/9.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/10.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/11.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/12.jpg" alt="#" class="slide">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="map-box">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1056.909059609538!2d56.2208591496992!3d58.00784786682071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e8c73b35b36cb1%3A0xc893889a02ae2c81!2z0YPQuy4g0JvQtdC90LjQvdCwLCA3MtCQLCDQn9C10YDQvNGMLCDQn9C10YDQvNGB0LrQuNC5INC60YDQsNC5LCA2MTQwNjg!5e0!3m2!1sru!2sru!4v1567254285699!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+					
+				</iframe>
+			</div>
+		</main>
+		<footer class="footer">
+			<address>Автор веб - сайта <a class="mylink" href="https://vk.com/iampike">Александр Щукин</a></address>
+		</footer>
+	</div>
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function pluseSlides(n) {
+			showSlides(slideIndex += n)
+		};
+
+		function currentSlides(n) {
+			showSlides(slideIndex = n)
+		};
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("myslides");
+
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex=slides.length
+			}
+
+			for (i=0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+
+			slides[slideIndex-1].style.display = "block";
+			};	
+	</script>
+</body>
+</html>
