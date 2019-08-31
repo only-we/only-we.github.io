@@ -7,7 +7,7 @@
 </head>
 <body>
 	<header>
-		<button onclick="menu()">Menu</button>
+		<button onclick="dirt()" id="btn">Menu</button>
 		<nav>
 			<ul id="barnav">
 				<li><a href="#">1</a></li>
@@ -15,10 +15,20 @@
 				<li><a href="#">3</a></li>
 				<li><a href="#">4</a></li>
 				<li><a href="#">5</a></li>
-				<li onclick="closed()">Exit</li>
 			</ul>
 		</nav>
 	</header>
-	<script src="script.js"></script>
+	<script>
+		var menu = document.getElementById("barnav");
+		var btn = document.getElementById("btn");
+		
+		function dirt () {
+			menu.style.display = 'none'/'block';
+		};
+
+		// var but = document.getElementById("btn");
+		// but.addEventListener("click", opensMenu);
+		// but.addEventListener("click", closeMenu);
+	</script>
 </body>
 </html>

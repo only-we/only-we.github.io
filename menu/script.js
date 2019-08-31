@@ -1,9 +1,9 @@
-function menu () {
-	var navbar = document.getElementById("barnav");
-	navbar.style.display = "block";
-};
+// function menu () {
+// 	var navbar = document.getElementById("barnav");
+// 	navbar.style.display = "block";
+// };
 
-function closed () {
-	var navbar = document.getElementById("barnav");
-	navbar.style.display = "none";
-};
+// function closed () {
+// 	var navbar = document.getElementById("barnav");
+// 	navbar.style.display = "none";
+// };
