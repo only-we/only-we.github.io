@@ -77,6 +77,71 @@
 
 }
 
+@-webkit-keyframes rad {
+
+	0% {
+		left: -175px;
+		bottom: -175px;
+	}
+
+	25% {
+		left: calc(25% - 150px);
+		bottom: 45%;
+	}
+
+
+	50% {
+		left: calc(50% - 150px);
+		bottom: 90%;
+	}
+
+	75% {
+		left: calc(75% - 150px);
+		bottom: 45%;
+	}
+
+
+	100% {
+		left: calc(100% + 175px);
+		bottom: -175px;
+	}
+
+}
+
+@-o-keyframes rad {
+
+	0% {
+		left: -175px;
+		bottom: -175px;
+	}
+
+	25% {
+		left: calc(25% - 150px);
+		bottom: 45%;
+	}
+
+
+	50% {
+		left: calc(50% - 150px);
+		bottom: 90%;
+	}
+
+	75% {
+		left: calc(75% - 150px);
+		bottom: 45%;
+	}
+
+
+	100% {
+		left: calc(100% + 175px);
+		bottom: -175px;
+	}
+
+}
+
+
+
+
 .cube {
 	width: 80px;
 	height: 80px;
