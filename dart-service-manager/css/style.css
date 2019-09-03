@@ -957,7 +957,7 @@ footer.footer {
 	font-size: 18px;
 }
 .inner-easy-useful {
-	padding: 70px 0;
+	padding: 55px 0;
 }
 .paragraph-easy {
 	font-size: 12px;
@@ -971,5 +971,25 @@ footer.footer {
 }
 .paragraph-inner-row {
 	font-size: 12px;
+}
+.inner-text-box {
+	font-size: 12px;
+	line-height: 12px;
+}
+.svg {
+	width: 20px;
+	height: auto;
+}
+.box {
+	height: 78px;
+}
+.title-services {
+	font-size: 28px;
+}
+.paragraph-services {
+	width: 70%;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 20px;
 }
 }
