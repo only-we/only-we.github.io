@@ -947,4 +947,29 @@ footer.footer {
 	width: 30px;
 	height: auto;
 }
+.h3-easy-useful {
+	color: #061e37;
+	text-align: center;
+	width: 90%;
+	font-size: 20px;
+}
+.h4-easy-useful {
+	font-size: 18px;
+}
+.inner-easy-useful {
+	padding: 70px 0;
+}
+.paragraph-easy {
+	font-size: 12px;
+}
+.row-article-box img {
+	width: 39px;
+	height: auto;
+}
+.title-inner-row {
+	font-size: 16px;
+}
+.paragraph-inner-row {
+	font-size: 12px;
+}
 }
