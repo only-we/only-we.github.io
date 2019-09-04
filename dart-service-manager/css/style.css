@@ -864,21 +864,66 @@ footer.footer {
 
 @media screen and (min-width: 415px) and (max-width: 649px) {
 .dart {
-	height: 420px;
-}
-.content-for-dart {
 	height: auto;
 }
+.content-for-dart {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.logo-link img {
+	width: 20px;
+	height: auto;
+}
+.first-title {
+	font-size: 10px;
+	line-height: 10px;
+}
+.nav-link {
+	width: 50%;
+	padding: 5px;
+}
+.logo-and-title {
+	width: 15%;
+}
+.wrapper-btn-page-header {
+	width: 15%;
+}
+.btn-page-header {
+	margin-right: 2px;
+	font-size: 12px;
+	padding: 3px 5px;
+}
+.page-header {
+	justify-content: space-between;
+}
+.link-in-nav {
+	font-size: 15px;
+}
 .lorem-title-white {
-	font-size: 20px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 19px;
+	width: 90%;
 }
 .lorem-pargraph-white {
 	font-size: 14px;
+	width: 90%;
+}
+.two-btn {
+	margin: 0 8px;
+	font-size: 14px;
+	padding: 4px 4px;
+	display: inline-block;
+}
+.btn-group {
+	width: 100%;
+}
+.inner-video {
+	width: 100%;
 }
 .inside-video {
-	width: 300px;
-	height: 220px;
+	margin: 0 auto;
 }
 .text-content-for-dart {
 	margin-top: 20px;
@@ -1186,7 +1231,6 @@ footer.footer {
 	width: 100px;
 	height: 100px;
 }
-
 .slider-img1,
 .slider-img3 {
 	width: 60px;
@@ -1204,7 +1248,6 @@ footer.footer {
 	font-size: 30px;
 	font-weight: 400;
 }
-
 .form-text {
 	font-size: 15px;
 	line-height: 25px;
@@ -1217,7 +1260,6 @@ footer.footer {
 	margin: 30px auto 0 auto;
 	border-radius: 7px;
 }
-
 footer.footer {
 	color: #000;
 	background-color: #000;
