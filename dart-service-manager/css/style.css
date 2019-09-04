@@ -125,6 +125,9 @@ body {
 	border-radius: 25px;
 	background-color: var(--white);
 }
+.btn-page-header:active {
+	transform: translateY(5px);
+}
 
 .content-for-dart {
 	width: 100%;
@@ -188,6 +191,9 @@ body {
 	cursor: pointer;
 	border-radius: 25px;
 	background-color: var(--white);
+}
+.two-btn:active {
+	transform: translateY(5px);
 }
 
 .easy-useful-container {
@@ -278,6 +284,9 @@ body {
 	border-radius: 25px;
 	color: var(--white);
 	background-color: purple;
+}
+.get-started:active {
+	transform: translateY(5px);
 }
 
 .boxes-bottom {
@@ -459,7 +468,9 @@ body {
 	border-radius: 25px;
 	color: var(--white);
 	background-color: purple;
-
+}
+.btn-info-box:active {
+	transform: translateY(5px);
 }
 
 .slider-box {
@@ -683,6 +694,9 @@ textarea[placeholder] {
 .send:hover {
 	border-radius: 15px;
 	cursor: pointer;
+}
+.send:active {
+	transform: translateY(5px);
 }
 
 footer.footer {
