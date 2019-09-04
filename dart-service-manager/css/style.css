@@ -928,11 +928,92 @@ footer.footer {
 .text-content-for-dart {
 	margin-top: 20px;
 }
+.row-article {
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 0px;
+	align-items: center;
+	justify-content: space-around;
+}
 .h3-easy-useful {
 	font-size: 34px;
+	width: 100%;
 }
 .h4-easy-useful {
 	font-size: 20px;
+}
+.title-easy {
+	width: 90%;
+}
+.info-block {
+	width: 85%;
+	margin-top: 45px;
+	padding: 35px 15px;
+	box-shadow: 0 0 5px #000;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+.in-info-block {
+	width: 200px;
+	height: auto;
+	margin: 0 auto;
+}
+.text-in-info-block {
+	width: 100%;
+	padding: 5px;
+	margin-top: 10px;
+	color: #061e37;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 17px;
+}
+.slider-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.info-box {
+	width: 100%;
+}
+.wrap-text-info-box {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.slider-box {
+	width: 100%;
+	margin: 15px 5px;
+}
+.info-box-h2 {
+	text-align: center;
+	width: 90%;
+	font-size: 24px;
+	margin: 60px auto 0 auto;
+}
+.text-lorem-info-box {
+	width: 90%;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 18px auto 0 auto;
+}
+.btn-info-box {
+	width: 118px;
+	height: 38px;
+	font-size: 14px;
+	border: none;
+	display: block;
+	margin: 15px auto 15px auto;
+}
+.slider-one {
+	width: 100%;
+	margin: 10px 0;
 }
 .paragraph-easy {
 	font-size: 13px;
@@ -942,13 +1023,18 @@ footer.footer {
 	height: auto;
 }
 .title-inner-row {
-	font-size: 16px;
+	font-size: 24px;
+	width: 100%;
 } 
+.row-article-box {
+	width: 90%;
+	padding-top: 20px;
+}
 .paragraph-inner-row {
 	font-size: 12px;
 }
 .inner-easy-useful {
-	padding: 60px 0;
+	padding: 50px 0;
 }
 .inner-text-box {
 	font-size: 15px;
@@ -969,6 +1055,11 @@ footer.footer {
 	font-size: 12px;
 	line-height: 15px;
 }
+.pod-h4-our-time {
+	font-size: 15px;
+	line-height: 20px;
+	width: 85%;
+}
 .out-time-title {
 	font-size: 30px;
 	margin-top: 80px;
@@ -978,21 +1069,16 @@ footer.footer {
 	font-size: 16px;
 	line-height: 23px;
 }
+.form-block	{
+	padding: 25px;
+	width: 65%;
+	margin: 30px auto 0 auto;
+	border-radius: 7px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .nav-link {
+	display: none;
+}
+}
 @media screen and (min-width: 320px) and (max-width: 414px) {
 .content-for-dart {
 	display: flex;
@@ -1163,7 +1249,8 @@ footer.footer {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}.info-box {
+}
+.info-box {
 	width: 100%;
 }
 .wrap-text-info-box {
