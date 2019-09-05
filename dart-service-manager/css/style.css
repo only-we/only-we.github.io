@@ -112,7 +112,6 @@ body {
 	margin-right: 5px;
 	font-size: 16px;
 	padding: 7px 17px;
-	border-radius: 5px;
 	color: var(--white);
 	transition: all .1s ease;
 	background-color: transparent;
@@ -179,7 +178,6 @@ body {
 	margin: 0 5px;
 	font-size: 16px;
 	padding: 7px 17px;
-	border-radius: 5px;
 	color: var(--white);
 	transition: all .1s ease;
 	background-color: transparent;
@@ -272,7 +270,6 @@ body {
 	margin: 20px 0px 50px 0px;
 	font-size: 16px;
 	padding: 8px 18px;
-	border-radius: 5px;
 	color: var(--white);
 	transition: all .1s ease;
 	background-color: #1de9b6;
@@ -457,7 +454,6 @@ body {
 	margin-top: 60px;
 	font-size: 15px;
 	color: var(--white);
-	border-radius: 5px;
 	border: none;
 	background-color: #061e37;
 	transition: all .1s ease-in-out;
@@ -465,7 +461,7 @@ body {
 
 .btn-info-box:hover {
 	cursor: pointer;
-	border-radius: 25px;
+	border-radius: 27px;
 	color: var(--white);
 	background-color: purple;
 }
@@ -683,7 +679,6 @@ textarea[placeholder] {
 	font-size: 15px;
 	width: 110px;
 	padding: 5px 10px;
-	border-radius: 5px;
 	color: var(--white);
 	transition: all .1s ease;
 	background-color: blue;
@@ -694,6 +689,8 @@ textarea[placeholder] {
 .send:hover {
 	border-radius: 15px;
 	cursor: pointer;
+	background-color: #000;
+	border: 2px solid #000;
 }
 .send:active {
 	transform: translateY(5px);
@@ -870,12 +867,6 @@ footer.footer {
 	line-height: 23px;
 }
 }
-
-
-
-
-
-
 @media screen and (min-width: 415px) and (max-width: 649px) {
 .dart {
 	height: auto;
