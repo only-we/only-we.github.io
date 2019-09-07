@@ -38,12 +38,10 @@
 	position: absolute;
 	left: -175px;
 	bottom: -175px;
-	transition: all 3s ease-in-out;
-	
-	animation-name: rad;
-	-moz-animation-duration: 20s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-iteration-count: infinite;
+	transition: 3s;
+	-webkit-animation: rad 20s linear infinite;
+	-moz-animation: rad 20s linear infinite;
+	-o-animation: rad 20s linear infinite;
 }
 
 .cube {
