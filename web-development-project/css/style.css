@@ -414,3 +414,89 @@ body {
 	line-height: 22px;
 	letter-spacing: 0.75px;
 }
+
+.three-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 100px 0 125px 0;
+}
+
+.form-pricing {
+	width: 370px;
+	height: 667px;
+	background-color: #fff;
+	margin: 0 10px;
+}
+.head-form {
+	width: 370px;
+	height: 209px;
+	background-color: #3949ab;
+}
+.titl-head-form {
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 25px;
+	line-height: 22px;
+	letter-spacing: 1.25px;
+	display: inline-block;
+	margin-top: 40px;
+}
+.dollar {
+	color: #fff;
+	font-size: 3em;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+}
+.text-span {
+	color: #fff;
+	font-size: 14px;
+}
+.text-center-form {
+	padding: 98px 98px;
+}
+.text {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	display: block;
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 22px;
+	letter-spacing: 0.85px;
+	position: relative;
+}
+.text::after {
+	position: absolute;
+	display: block;
+	content: "";
+	background-color: #212121;
+	top: 115%;
+	left: 0;
+	height: 1px;
+	width: 100%;
+}
+.btn-pricing-form {
+	margin: 0px auto 20px auto;
+	display: block;
+	transition: all .1s ease;
+	cursor: pointer;
+	border: 2px solid #000;
+	background: transparent;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 16px;
+	width: 125px;
+	height: 45px;
+}
+.btn-pricing-form:hover {
+	background-color: #00897b;
+	color: #fff;
+	border: none;
+}
