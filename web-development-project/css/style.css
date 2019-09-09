@@ -600,3 +600,35 @@ body {
 	margin: 0 6px;
 	cursor: pointer;
 }
+
+.blog {
+	width: 100%;
+	height: auto;
+	background-color:  #e4fdf9;
+	padding: 10px;
+}
+
+.text-in-blog {
+	margin: 125px auto 127px auto;
+}
+
+.h2-title-blog {
+	text-align: center;
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 1.5px;
+}
+
+.p-blog {
+	margin: 28px auto 0 auto;
+	width: 50%;
+	text-align: center;
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 0.75px;
+}
