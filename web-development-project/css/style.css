@@ -353,12 +353,12 @@ body {
 }
 
 .foo-img {
-	width: 370px;
-	height: 370px;
+	width: 320px;
+	height: 320px;
 	text-align: center;
 	background-color: #fff;
-	padding: 20px;
-	margin: 25px;
+	padding: 10px;
+	margin: 20px;
 }
 
 .btn-for-foo-img {
@@ -631,4 +631,82 @@ body {
 	font-size: 15px;
 	line-height: 22px;
 	letter-spacing: 0.75px;
+}
+
+.block-for-img-state {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.block-state-img {
+	width: 70%;
+	display: flex;
+	margin-top: 40px;
+}
+
+.one-img  {
+	float: right;
+}
+
+.two-state {
+	float: left;
+}
+
+.img-state {
+	width: 50%;
+	height: auto;
+}
+
+.text-state {
+	width: 50%;
+	height: auto;
+	padding: 30px;
+}
+
+.title-state {
+	color: #00897b;
+	font-family: "Open Sans - Semibold";
+	font-size: 22px;
+	line-height: 22px;
+	letter-spacing: 1.25px;
+}
+
+.p-state {
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 0.75px;
+	margin-top: 30px;
+}
+
+.blog-btn {
+	margin: 50px auto 70px auto;
+	display: block;
+	cursor: pointer;
+	border: 2px solid #00897b;
+	background: #00897b;
+	text-transform: uppercase;
+	color:  #fff;
+	font-size: 16px;
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	transition: all .1s ease;
+}
+
+.blog-btn:hover {
+	color: #000;
+	background: transparent;
+}
+
+.contact-us {
+	width: 100%;
+	height: auto;
+	background-color: #212121;
+	padding: 10px;
 }
