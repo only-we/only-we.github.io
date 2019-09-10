@@ -839,3 +839,111 @@ address {
 	text-align: center;
 	line-height: 50px;
 }
+
+@media screen and (min-width: 834px) and (max-width: 1024px) {
+.three-form {
+	flex-direction: column;
+	margin: 80px 0 100px 0;
+}
+.form-pricing {
+	margin: 0px 10px 40px 10px;
+}
+.img-people {
+	width: 280px;
+	height: 230px;
+}
+.link-nav {
+	font-size: 16px;
+	margin: 0 5px;
+}
+.web-dev {
+	font-size: 38px;
+	letter-spacing: 2px;
+}
+.text-in-web-dev {
+	font-size: 19px;
+	letter-spacing: 1px;
+}
+.img-people {
+	width: 250px;
+	height: 210px;
+}
+.blue-block {
+	width: 75px;
+	height: 75px;
+}
+.text-contact-form {
+	font-size: 14px;
+	line-height: 16px;
+}
+input[name="text-form"],
+input[name="email-form"] {
+	width: 290px;
+	height: 50px;
+	font-size: 17px;
+}
+textarea {
+	font-size: 17px;
+	width: 582px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 833px) {
+.logo {
+	font-size: 23px;
+}
+.web-dev {
+	font-size: 38px;
+	letter-spacing: 2px;
+}
+.text-in-web-dev {
+	font-size: 19px;
+	letter-spacing: 1px;
+}
+.link-nav {
+	font-size: 14px;
+	margin: 0 5px;
+}	
+.btn {
+	font-size: 15px;
+}
+.three-form {
+	flex-direction: column;
+	margin: 80px 0 100px 0;
+}
+.img-people {
+	width: 230px;
+	height: 200px;
+}
+.form-pricing {
+	width: 340px;
+	height: 637px;
+	background-color: #fff;
+	margin: 0px 10px 40px 10px;
+}
+.head-form {
+	width: 340px;
+	height: 209px;
+}
+.text-center-form {
+	padding: 78px 78px;
+}
+
+.blue-block {
+	width: 75px;
+	height: 75px;
+}
+.text-contact-form {
+	font-size: 14px;
+	line-height: 16px;
+}
+input[name="text-form"],
+input[name="email-form"] {
+	width: 240px;
+	height: 50px;
+	font-size: 17px;
+}
+textarea {
+	font-size: 17px;
+	width: 482px;
+}
+}
