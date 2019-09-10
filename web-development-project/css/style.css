@@ -792,6 +792,7 @@ input[name="email-form"] {
 	border-radius: 5px;
 	border: none;
 	font-size: 18px;
+	padding-left: 10px;
 }
 
 textarea {
@@ -801,6 +802,11 @@ textarea {
 	width: 885px;
 	resize: none;
 	margin: 20px auto 20px auto;
+}
+
+textarea[name="textar"] {
+	padding-left: 10px;
+	padding-top: 10px;
 }
 
 .form {
