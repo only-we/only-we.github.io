@@ -39,12 +39,12 @@ body {
 	font-weight: 700;
 	margin-left: 20px;
 	padding: 5px;
-	width: 20%;
+	width: 15%;
 }
 
 .navigation {
-	width: 60%;
-	padding: 5px 10px;
+	width: 70%;
+	padding: 5px 5px;
 }
 
 .wrapper-list-li {
@@ -62,12 +62,11 @@ body {
 	color: #212121;
 	font-family: "Open Sans - Semibold";
 	font-size: 18px;
-	font-weight: 400;
 	margin: 0 7px;
 }
 
 .search {
-	width: 20%;
+	width: 15%;
 	text-align: center;
 }
 
@@ -138,7 +137,7 @@ body {
 
 .about-us {
 	width: 100%;
-	height: 672px;
+	height: auto;
 	background-color: #fff;
 	padding: 10px;
 }
@@ -852,6 +851,9 @@ address {
 	width: 280px;
 	height: 230px;
 }
+.logo {
+	font-size: 23px;
+}
 .link-nav {
 	font-size: 16px;
 	margin: 0 5px;
@@ -889,7 +891,7 @@ textarea {
 }
 @media screen and (min-width: 768px) and (max-width: 833px) {
 .logo {
-	font-size: 23px;
+	font-size: 22px;
 }
 .web-dev {
 	font-size: 38px;
@@ -945,5 +947,38 @@ input[name="email-form"] {
 textarea {
 	font-size: 17px;
 	width: 482px;
+}
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+.link-nav {
+	font-size: 14px;
+	margin: 0 5px;
+}
+.logo {
+	font-size: 17px;
+	margin-left: 5px;
+}
+.link-nav {
+	font-size: 15px;
+	margin: 0 4px;
+}
+.search-input {
+	font-size: 12px;
+	width: 80px;
+	height: 25px;
+}
+.navigation {
+	text-align: center;
+}
+.web-dev {
+	font-size: 30px;
+}
+.text-in-web-dev {
+	font-size: 16px;
+}
+.btn {
+	font-size: 14px;
+	width: 120px;
+	height: 45px;
 }
 }
