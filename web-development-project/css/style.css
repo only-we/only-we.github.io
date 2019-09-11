@@ -46,6 +46,9 @@ body {
 	width: 70%;
 	padding: 5px 5px;
 }
+.bur {
+	display: none;
+}
 
 .wrapper-list-li {
 	display: flex;
@@ -594,6 +597,7 @@ body {
 	width: 30px;
 	height: 30px;
 	margin: 0 5px;
+	cursor: pointer;
 }
 
 .three-btn-link {
@@ -1105,28 +1109,34 @@ textarea {
 @media screen and (min-width: 415px) and (max-width: 600px) {
 .logo {
 	padding: 2px;
-	font-size: 12px;
-	margin-left: 1px;
+	font-size: 16px;
+	margin-left: 3px;
+	width: 22%;
 }
-.link-nav {
-	font-size: 10px;
-	margin: 0 4px;
+.bur {
+	display: block;
+	width: 40px;
+	height: auto;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.wrapper-list-li {
+	display: none;
 }
 .search-input {
-	font-size: 10px;
-	width: 50px;
-	height: 20px;
+	font-size: 12px;
+	width: 65px;
+	height: 25px;
 }
 .navigation {
 	text-align: center;
 }
 .web-dev {
-	font-size: 20px;
+	font-size: 22px;
 	padding-top: 190px;
-	letter-spacing: 1;
 }
 .text-in-web-dev {
-	font-size: 16px;
+	font-size: 14px;
 }
 .btn {
 	font-size: 14px;
@@ -1200,6 +1210,92 @@ textarea {
 	text-align: center;
 	width: 100%;
 }
+.form-pricing {
+	width: 260px;
+	height: 537px;
+	background-color: #fff;
+	margin: 0px 10px 50px 10px;
+}
+.head-form {
+	width: 260px;
+	height: 155px;
+}
+.titl-head-form {
+	font-size: 22px;
+	line-height: 22px;
+	margin-top: 25px;
+}
+.dollar {
+	font-size: 2em;
+	margin-top: 20px;
+}
+.text-span {
+	color: #fff;
+	font-size: 14px;
+}
+.text-center-form {
+	padding: 70px 70px;
+}
+.text {
+	margin: 20px 0 20px 0;
+	font-size: 13px;
+	line-height: 15px;
+}
+.block-state-img {
+	text-align: center;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.img-state {
+	width: 90%;
+	height: auto;
+}
+.title-state {
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	line-height: 22px;
+}
 
-
+.p-state {
+	font-size: 15px;
+	line-height: 22px;
+}
+.text-state {
+	text-align: center;
+	width: 90%;
+	height: auto;
+}
+.blue-block {
+	width: 65px;
+	height: 65px;
+}
+.text-contact-form {
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+}
+.contact-form {
+	width: 35%;
+	height: 100px;
+	text-align: center;
+}
+.contact-text-block {
+	margin: 90px auto 90px auto;
+}
+input[name="text-form"],
+input[name="email-form"] {
+	width: 170px;
+	height: 50px;
+	font-size: 17px;
+}
+textarea {
+	font-size: 17px;
+	width: 344px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 414px) {
+	
 }
