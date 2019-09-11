@@ -67,7 +67,8 @@ body {
 
 .search {
 	width: 15%;
-	text-align: center;
+	text-align: right;
+	margin-right: 5px;
 }
 
 .search-input {
@@ -950,10 +951,6 @@ textarea {
 }
 }
 @media screen and (min-width: 601px) and (max-width: 767px) {
-.link-nav {
-	font-size: 14px;
-	margin: 0 5px;
-}
 .logo {
 	font-size: 17px;
 	margin-left: 5px;
@@ -981,4 +978,228 @@ textarea {
 	width: 120px;
 	height: 45px;
 }
+.title-min-block {
+	margin-top: 26px;
+	font-size: 18px;
+	line-height: 19px;
+}
+.text-min-block {
+	width: 90%;
+	margin: 18px auto 21px auto;
+	font-size: 15px;
+	line-height: 17px;
+}
+.btn-foo {
+	font-size: 14px;
+	width: 120px;
+	height: 45px;
+}
+.form-pricing {
+	width: 300px;
+	height: 637px;
+	background-color: #fff;
+	margin: 0px 10px 50px 10px;
+}
+.head-form {
+	width: 300px;
+	height: 190px;
+}
+.titl-head-form {
+	font-size: 22px;
+	line-height: 22px;
+	margin-top: 40px;
+}
+.dollar {
+	font-size: 2.5em;
+	margin-top: 30px;
+}
+.text-span {
+	color: #fff;
+	font-size: 14px;
+}
+.text-center-form {
+	padding: 70px 70px;
+}
+.text {
+	margin: 20px 0 20px 0;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 16px;
+}
+.img-people {
+	width: 190px;
+	height: 160px;
+}
+.name-people {
+	margin-top: 25px;
+	font-size: 18px;
+	line-height: 19px;;
+}
+.block-for-img-state {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.block-state-img {
+	width: 80%;
+	display: flex;
+	margin-top: 20px;
+}
+
+.img-state {
+	width: 50%;
+	height: 80%;
+}
+
+.text-state {
+	width: 50%;
+	height: 100%;
+	padding: 30px;
+}
+
+.title-state {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.p-state {
+	font-size: 14px;
+	line-height: 15px;
+	margin-top: 10px;
+}
+.text-state {
+	width: 50%;
+	height: auto;
+	padding: 9px;
+}
+.blue-block {
+	width: 65px;
+	height: 65px;
+}
+.text-contact-form {
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+}.contact-form {
+	width: 35%;
+	height: 100px;
+	text-align: center;
+}
+.contact-text-block {
+	margin: 90px auto 90px auto;
+}
+input[name="text-form"],
+input[name="email-form"] {
+	width: 240px;
+	height: 50px;
+	font-size: 17px;
+}
+textarea {
+	font-size: 17px;
+	width: 482px;
+}
+}
+@media screen and (min-width: 415px) and (max-width: 600px) {
+.logo {
+	padding: 2px;
+	font-size: 12px;
+	margin-left: 1px;
+}
+.link-nav {
+	font-size: 10px;
+	margin: 0 4px;
+}
+.search-input {
+	font-size: 10px;
+	width: 50px;
+	height: 20px;
+}
+.navigation {
+	text-align: center;
+}
+.web-dev {
+	font-size: 20px;
+	padding-top: 190px;
+	letter-spacing: 1;
+}
+.text-in-web-dev {
+	font-size: 16px;
+}
+.btn {
+	font-size: 14px;
+	width: 120px;
+	height: 45px;
+}
+.two-img {
+	text-align: center;
+	margin: 108px auto 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h2-about-us {
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	padding-top: 100px;
+}
+.p-about-us {
+	font-size: 14px;
+	letter-spacing: 0.75px;
+	margin: 32px auto 32px auto;
+}
+.title-min-block {
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 17px;
+}
+.min-block {
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+}
+.text-min-block {
+	width: 80%;
+	margin: 21px auto 21px auto;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.75px;
+}
+.btn-foo {
+	font-size: 12px;
+	width: 130px;
+	height: 40px;
+}
+.block-foo-img {
+	margin: 70px auto 50px auto;
+}
+.foo-img {
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	background-color: #fff;
+	padding: 5px;
+	margin: 10px;
+}
+.time-member-img-box {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.img-people {
+	margin: 0 auto;
+	width: 350px;
+	height: 300px;
+}
+.box-people {
+	text-align: center;
+	width: 100%;
+}
+
+
 }
