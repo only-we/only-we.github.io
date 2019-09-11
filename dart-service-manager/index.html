@@ -7,6 +7,18 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet"> 
+	<script>
+			function openMenu() {
+				var bur = document.getElementById("bur");
+				var burger = document.getElementById("burger");
+				if (burger.style.display == "block") {
+					burger.style.display = "none";
+				} else {
+					burger.style.display = "block";
+				}
+			};
+
+	</script>
 </head>
 <body>
 	<div class="container">
@@ -37,7 +49,25 @@
 						</li>
 					</ul>
 				</nav>
-				<img class="bur" src="https://img.icons8.com/cotton/64/000000/menu.png">
+
+
+
+
+				<div class="burger-menu">
+					<img class="bur" id="bur" onclick="openMenu()" src="https://img.icons8.com/cotton/64/000000/menu.png">
+					<nav class="burger" id="burger">
+						<ul>
+							<li class="list-bur">Home</li>
+							<li class="list-bur">Service</li>
+							<li class="list-bur">Extension</li>
+							<li class="list-bur">Pricing</li>
+							<li class="list-bur">Help</li>
+						</ul>
+					</nav>
+				</div>
+
+
+
 				<div class="wrapper-btn-page-header">
 					<button class="btn-page-header">Sign Up</button>
 				</div>
