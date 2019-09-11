@@ -3,6 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	transition: all .2s ease;
 }
 
 body {
@@ -37,6 +38,7 @@ nav {
 
 ul {
 	display: none;
+	transition: all .2s ease;
 }
 
 a {

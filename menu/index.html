@@ -7,7 +7,7 @@
 </head>
 <body>
 	<header>
-		<button onclick="dirt()" id="btn">Menu</button>
+		<button onclick="cli()" id="btn">Menu</button>
 		<nav>
 			<ul id="barnav">
 				<li><a href="#">1</a></li>
@@ -19,16 +19,14 @@
 		</nav>
 	</header>
 	<script>
-		var menu = document.getElementById("barnav");
-		var btn = document.getElementById("btn");
-		
-		function dirt () {
-			menu.style.display = 'none'/'block';
+		function cli() {
+			var block = document.getElementById("barnav");
+			if (block.style.display == "block") {
+			block.style.display = "none";
+			} else {
+			block.style.display = "block";
+			}
 		};
-
-		// var but = document.getElementById("btn");
-		// but.addEventListener("click", opensMenu);
-		// but.addEventListener("click", closeMenu);
 	</script>
 </body>
 </html>
