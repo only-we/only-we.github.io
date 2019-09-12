@@ -39,6 +39,12 @@ body {
 
 .burger {
 	display: none;
+	background-color: #fff;
+	width: 150px;
+	height: 220px;
+	padding: 15px;
+	border-radius: 6px;
+	 box-shadow: 0 0 10px; 
 }
 .list-bur {
 	color: #fff;
@@ -64,9 +70,9 @@ body {
 }
 .burger {
 	position: absolute;
-	left: -40px;
+	left: -60px;
 	right: 0;
-	top: 45px;
+	top: 40px;
 }
 
 .page-header {
