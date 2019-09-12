@@ -6,7 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+	<script>
+		function openMenu() {
+				var bur = document.getElementById("bur");
+				var burger = document.getElementById("burger");
+				if (burger.style.display == "block") {
+					burger.style.display = "none";
+				} else {
+					burger.style.display = "block";
+				}
+			};
+	</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -14,7 +25,6 @@
 			<header class="header-one-block">
 				<div class="logo">Your logo</div>
 				<nav class="navigation">
-					<img class="bur" src="https://img.icons8.com/cotton/64/000000/menu.png">
 					<ul class="wrapper-list-li">
 						<li class="list-li-in-nav"><a class="link-nav" href="#">Home</a></li>
 						<li class="list-li-in-nav"><a class="link-nav" href="#">About</a></li>
@@ -23,6 +33,20 @@
 						<li class="list-li-in-nav"><a class="link-nav" href="#">Blog</a></li>
 						<li class="list-li-in-nav"><a class="link-nav" href="#">Contact us</a></li>
 					</ul>
+
+					<div class="burger-menu">
+						<img class="bur" id="bur" onclick="openMenu()" src="https://img.icons8.com/cotton/64/000000/menu.png">
+					<nav class="burger" id="burger">
+						<ul>
+							<li class="list-bur">Home</li>
+							<li class="list-bur">About</li>
+							<li class="list-bur">Servising</li>
+							<li class="list-bur">Portfolio</li>
+							<li class="list-bur">Blog</li>
+							<li class="list-bur">Contact us</li>
+						</ul>
+					</nav>
+				</div>
 				</nav>
 				<div class="search">
 					<input type="search" placeholder="Search" class="search-input">
