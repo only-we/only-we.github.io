@@ -16,10 +16,6 @@ body {
 	background-color: silver;
 }
 
-
-
-
-
 .bur {
 	display: none;
 	width: 35px;
@@ -63,10 +59,6 @@ body {
 .burger-menu {
 	position: relative;
 }
-
-
-
-
 
 .one-block {
 	width: 100%;
@@ -1184,11 +1176,11 @@ textarea {
 	text-align: center;
 }
 .web-dev {
-	font-size: 22px;
+	font-size: 23px;
 	padding-top: 190px;
 }
 .text-in-web-dev {
-	font-size: 14px;
+	font-size: 15px;
 }
 .btn {
 	font-size: 14px;
@@ -1349,5 +1341,269 @@ textarea {
 }
 }
 @media screen and (min-width: 320px) and (max-width: 414px) {
-	
+.in-one-block {
+	max-width: 1403px;
+	height: 582px;
+	background: url(../img/bg-header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo {
+	padding: 2px;
+	font-size: 16px;
+	margin-left: 3px;
+	width: 30%;
+}
+.search {
+	width: 30%;
+}
+.bur {
+	display: block;
+	width: 40px;
+	height: auto;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.wrapper-list-li {
+	display: none;
+}
+.search-input {
+	font-size: 12px;
+	width: 65px;
+	height: 25px;
+}
+.navigation {
+	text-align: center;
+	width: 40%;
+}
+.web-dev {
+	font-size: 16px;
+	padding-top: 150px;
+}
+.text-in-web-dev {
+	font-size: 14px;
+}
+.two-img {
+	justify-content: center;
+}
+.btn {
+	font-size: 14px;
+	width: 125px;
+	height: 45px;
+}
+.h2-about-us {
+	font-size: 22px;
+	padding-top: 90px;
+}
+.p-about-us {
+	letter-spacing: 0.3px;
+	margin: 28px auto 28px auto;
+}
+.three-min-block {
+	flex-direction: column;
+}
+.min-block {
+	width: 90%;
+}
+.h3-our-services {
+	padding-top: 130px;
+}
+
+.p-our-services {
+	width: 60%;	
+}
+.six-block {
+	width: 400px;
+	height: 380px;
+	padding: 20px;
+	margin: 25px;
+	transition: all .1s ease;
+}
+.title-six {
+	font-size: 19px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.text-six {
+	width: 90%;
+	font-size: 14px;
+	line-height: 15px;
+	letter-spacing: 0.75px;
+	margin: 15px auto 0 auto;
+}
+.btn-six {
+	font-size: 14px;
+	width: 125px;
+	height: 45px;
+}
+.h2-latest-works {
+	letter-spacing: 1.2px;
+}
+
+.p-latest-works {
+	width: 60%;
+}
+.foo-btn {
+	width: 100%;
+	margin: 111px auto 111px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-foo {
+	font-size: 12px;
+	width: 115px;
+	height: 40px;
+}
+.foo-img {
+	width: 270px;
+	height: 270px;
+}
+.btn-for-foo-img {
+	font-size: 14px;
+	width: 125px;
+	height: 45px;
+	line-height: 45px;
+}
+.h2-pricing-plan {
+	font-size: 28px;
+	line-height: 28px;
+	letter-spacing: 1.3px;
+}
+
+.p-pricing-plan {
+	width: 70%;
+	font-size: 15px;
+	line-height: 17px;
+}
+.form-pricing {
+	width: 260px;
+	height: 480px;
+	margin-bottom: 30px;
+}
+.head-form {
+	width: 260px;
+	height: 155px;
+}
+.dollar {
+	font-size: 2em;
+	margin-top: 20px;
+}
+.text-span {
+	font-size: 12px;
+}
+.text-center-form {
+	padding: 50px 50px;
+}
+.text {
+	font-size: 12px;
+	line-height: 13px;
+}
+.btn-pricing-form {
+	font-size: 14px;
+	width: 125px;
+	height: 45px;
+}
+.h2-title-member {
+	font-size: 28px;
+	line-height: 28px;
+	letter-spacing: 1.3px;
+}
+.text-in-time-member {
+	width: 60%;
+	font-size: 15px;
+	line-height: 19px;
+	letter-spacing: 0.78px;
+}
+.time-member-img-box {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.img-people {
+	width: 280px;
+	height: 260px;
+}
+.box-people {
+	text-align: center;
+	width: 100%;
+}
+
+.p-blog {
+	width: 65%;
+	font-size: 17px;
+	line-height: 18px;
+	letter-spacing: 0.70px;
+}
+.block-state-img {
+	text-align: center;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.img-state {
+	width: 90%;
+	height: auto;
+}
+.title-state {
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.p-state {
+	font-size: 15px;
+	line-height: 22px;
+}
+.text-state {
+	text-align: center;
+	width: 90%;
+	height: auto;
+}
+.blog-btn {
+	margin: 10px auto 70px auto;
+	font-size: 14px;
+	width: 125px;
+	height: 45px;
+}
+.blue-block {
+	width: 55px;
+	height: 55px;
+}
+.text-contact-us {
+	margin-top: 30px;
+	width: 70%;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: 0.75px;
+}
+.text-contact-form {
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+}
+.contact-form {
+	width: 35%;
+	height: 100px;
+	text-align: center;
+}
+.contact-text-block {
+	margin: 90px auto 90px auto;
+}
+input[name="text-form"],
+input[name="email-form"] {
+	width: 130px;
+	height: 50px;
+	font-size: 15px;
+}
+textarea {
+	font-size: 15px;
+	width: 262px;
+}
 }
