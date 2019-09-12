@@ -8,7 +8,6 @@
 
 body {
 	background: linear-gradient(90deg, #edde1d, #C5DDE8);
-	transition: all 4s ease;
 }
 
 li {
@@ -21,7 +20,6 @@ li {
 	background-color: black;
 	opacity: .7;
 	text-align: center;
-	transition: all .2s ease;
 	color: #fff;
 }
 
@@ -38,7 +36,6 @@ nav {
 
 ul {
 	display: none;
-	transition: all .2s ease;
 }
 
 a {
