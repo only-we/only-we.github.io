@@ -1295,6 +1295,7 @@ textarea {
 .img-state {
 	width: 90%;
 	height: auto;
+	margin: 0 auto;
 }
 .title-state {
 	text-align: center;
