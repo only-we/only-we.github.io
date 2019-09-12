@@ -1311,6 +1311,10 @@ textarea {
 	text-align: center;
 	width: 90%;
 	height: auto;
+	margin: 0 auto;
+}
+.text-state {
+	margin: 0 auto;
 }
 .blue-block {
 	width: 65px;
