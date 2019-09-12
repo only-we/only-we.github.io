@@ -1578,6 +1578,7 @@ textarea {
 	font-size: 14px;
 	width: 125px;
 	height: 45px;
+	line-height: 45px;
 }
 .blue-block {
 	width: 55px;
