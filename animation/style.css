@@ -54,6 +54,7 @@
 	top: 25px;
 	border-radius: 7px;
 	box-shadow: 0 0 5px #54d8d0;
+	padding-top: 10px;
 
 	-webkit-animation-name: block;
 	-webkit-animation-duration: 2s;
