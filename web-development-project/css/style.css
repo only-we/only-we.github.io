@@ -32,7 +32,7 @@ button {
 	display: none;
 	background-color: #fff;
 	width: 150px;
-	height: 240px;
+	height: 265px;
 	padding: 15px;
 	border-radius: 6px;
 	box-shadow: 0 0 10px; 
@@ -40,7 +40,7 @@ button {
 	left: 50%;
 	right: 50%;
 	transform: translate(-50%, -50%); 
-	top: 168px;
+	top: 180px;
 }
 .list-bur {
 	color: #fff;
@@ -854,6 +854,7 @@ textarea {
 	display: block;
 	border-radius: 5px;
 	width: 885px;
+	height: 220px;
 	resize: none;
 	margin: 20px auto 20px auto;
 }
