@@ -46,37 +46,37 @@
 						<a class="next" onclick="pluseSlides(1)">&#10095</a>
 
 						<div class="myslides">
-							<img src="img/2.jpg" alt="#" class="slide">
+							<img src="img/2.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/3.jpg" alt="#" class="slide">
+							<img src="img/3.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/4.jpg" alt="#" class="slide">
+							<img src="img/4.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/5.jpg" alt="#" class="slide">
+							<img src="img/5.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/6.jpg" alt="#" class="slide">
+							<img src="img/6.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/7.jpg" alt="#" class="slide">
+							<img src="img/7.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/8.jpg" alt="#" class="slide">
+							<img src="img/8.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/9.jpg" alt="#" class="slide">
+							<img src="img/9.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/10.jpg" alt="#" class="slide">
+							<img src="img/10.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/11.jpg" alt="#" class="slide">
+							<img src="img/11.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 						<div class="myslides">
-							<img src="img/12.jpg" alt="#" class="slide">
+							<img src="img/12.jpg" alt="#" class="slide" onclick="skale()" id="sk">
 						</div>
 					</div>
 				</div>
@@ -121,6 +121,11 @@
 
 			slides[slideIndex-1].style.display = "block";
 			};	
+
+		function skale () {
+			var sk = document.getElementById("sk");
+			sk.style.transform = "skale(2.3)";
+			};
 	</script>
 </body>
 </html>

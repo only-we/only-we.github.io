@@ -124,13 +124,19 @@ li {
 	margin: 0 auto;
 	position: relative;
 	border-radius: 10px;
+	overflow: hidden;
 }
 
 .slide {
 	width: 480px;
 	height: 320px;
 	border-radius: 10px;
+	transition: all .4s ease;
 }
+
+/*.slide:hover {
+	transform: scale(1.1);
+}*/
 
 .prew {
 	position: absolute;
