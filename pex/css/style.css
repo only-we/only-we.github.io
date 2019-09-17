@@ -193,3 +193,113 @@ a {
 	line-height: 26px;
 	margin-top: 20px;
 }
+
+.two-btn {
+	margin-top: 50px;
+	width: 180px;
+	height: 40px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+	border-radius: 30px;
+	border: none;
+	background-color: #fff;
+	color: #c8566c;
+	font-size: 16px;
+	transition: all .2s ease;
+}
+
+.two-btn:hover {
+	transform: translateY(-3px);
+}
+
+.white-block {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+
+.pencil {
+	float: left;
+	width: 30%;
+	height: 300px;
+}
+
+.white-text-block {
+	margin-top: 40px;
+	padding: 20px;
+	width: 70%;
+	float: right;
+} 
+
+.title-white {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 26.04px;
+	text-transform: uppercase;
+}
+
+.text-white {
+	margin-top: 15px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26.04px;
+}
+
+.experience {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/river.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	position: relative;
+}
+
+.experience::after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 380px;
+	background-color: rgba(51, 0, 51, 0.3);
+	left: 0;
+	right: 0;
+	top: 120px;
+	z-index: 0;
+}
+
+.experience-text-block {
+	width: 70%;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	z-index: 100;
+}
+
+.experience-title {
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 48px;
+	z-index: 100;
+}
+
+.experience-text {
+	color: #fff;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 33px;
+	z-index: 100;
+}
+
+.three-btn {
+	margin-top: 50px;
+	width: 180px;
+	height: 40px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+	border-radius: 30px;
+	border: none;
+	background-color: #8824cd;
+	color: #fff;
+	font-size: 16px;
+	transition: all .2s ease;
+}
