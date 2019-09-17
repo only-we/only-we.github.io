@@ -171,3 +171,25 @@ a {
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
+
+.pink-text-block {
+	margin: 150px auto 0 auto;
+}
+
+.title-pink {
+	text-align: center;
+	color: #ffffff;
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 60.05px;
+}
+
+.text-pink {
+	width: 60%;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 20px;
+}
