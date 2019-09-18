@@ -1,0 +1,25 @@
+.container {
+	background-color: #000;
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+
+.cubes {
+	top: 50px;
+	left: 50px;
+	background-color: red;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px red;
+}
+
+.panel {
+	display: inline;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: 30px;
+}
