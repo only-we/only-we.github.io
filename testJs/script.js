@@ -2,18 +2,21 @@ let br = document.querySelector('.cubes');
 let move = 0;
 
 setInterval(function () {
-	if (move <= 250) {
+
+	if (move < 250) {
 		move++;
 		br.style.left = move + "px";
 
-	} else if (move <= 300) {
+	} else if (move < 350) {
 		move++;
 		br.style.top = move + "px";
-	} else if (move <= 550) {
+	} else if (move < 450) {
 		move++;
 		br.style.left = move + "px";
-	} else if (move <= 650) {
+	} else if (move < 550) {
 		move++;
-		br.style.bottom = move + "px";
+		br.style.top = move + "px";
+	} else {
+		br.style.backgroundColor = "green";
 	}
-}, 20)
+}, 10)
