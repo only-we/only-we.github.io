@@ -103,6 +103,7 @@ a {
 }
 
 .one-btn {
+	cursor: pointer;
 	margin-top: 50px;
 	width: 180px;
 	height: 40px;
@@ -173,7 +174,8 @@ a {
 }
 
 .pink-text-block {
-	margin: 150px auto 0 auto;
+	margin: 50px auto 0 auto;
+	text-align: center;
 }
 
 .title-pink {
@@ -195,10 +197,10 @@ a {
 }
 
 .two-btn {
-	margin-top: 50px;
+	cursor: pointer;
+	margin: 40px auto 0px auto;
 	width: 180px;
 	height: 40px;
-	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
 	border-radius: 30px;
 	border: none;
 	background-color: #fff;
@@ -252,47 +254,39 @@ a {
 	background-repeat: no-repeat;
 	background-position: bottom;
 	position: relative;
-	z-index: 0;
 }
 
-.experience::after {
+.experience-wrap {
+	background-color: rgba(51, 0, 51, 0.8);
+	height: 80%;
+	top: 20%;
 	position: absolute;
-	content: "";
-	display: block;
-	width: 100%;
-	height: 380px;
-	background-color: rgba(51, 0, 51, 0.6);
-	left: 0;
-	right: 0;
-	top: 120px;
-	z-index: 0;
 }
 
 .experience-text-block {
-	width: 70%;
-	margin: 100px auto 0 auto;
+	width: 80%;
+	margin: 55px auto 0 auto;
 	text-align: center;
-	z-index: 100;
 }
 
 .experience-title {
 	color: #ffffff;
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 300;
 	line-height: 48px;
-	z-index: 100;
 }
 
 .experience-text {
 	color: #fff;
 	margin-top: 30px;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 33px;
 	z-index: 100;
 }
 
 .three-btn {
+	cursor: pointer;
 	margin-top: 50px;
 	width: 180px;
 	height: 40px;
@@ -303,4 +297,123 @@ a {
 	color: #fff;
 	font-size: 16px;
 	transition: all .2s ease;
+}
+
+.three-btn:hover {
+	transform: translateY(-3px);
+}
+
+.img-section {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/imgs.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.inner-img-section {
+	width: 40%;
+	margin: 200px 0 0 50px;
+}
+
+.btn-img-section {
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 50px;
+	transition: all .2s ease;
+}
+
+.btn-img-section:hover {
+	transform: translateY(-3px);
+}
+
+.text-img-section {
+	margin-top: 20px;
+	color: #ffffff;
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.text-and-clock {
+	width: 100%;
+	height: 350px;
+	background-color: #fff;
+}
+
+.text-block-clock {
+	width: 60%;
+	float: left;
+	padding: 90px 0 0 30px;
+}
+
+.title-and-clock {
+	color: #3a4d60;
+	font-size: 15px;
+	font-weight: 400;
+	width: 70%;
+	margin: 50px 0 0 50px;
+}
+
+.p-clock {
+	margin: 20px 0 0 50px;
+	color: #3a4d60;
+	font-size: 15px;
+	font-weight: 400;
+	width: 70%;
+}
+
+.inner-img-block {
+	width: 40%;
+	float: right;
+}
+
+.imgclock {
+	height: 350px;
+}
+
+.two-pink {
+	width: 100%;
+	height: 500px;
+	background-color: #e7526b;
+}
+
+.inner-two-pink {
+	width: 40%;
+	height: auto;
+	margin: 200px 0 0 200px;
+}
+
+.tit-two-pink {
+	color: #fff;
+	font-size: 18px;
+}
+
+.text-two-pink {
+	display: block;
+	margin-top: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.footer {
+	background-color: #000;
+	height: 80px;
+	width: 100%;
+}
+
+.address {
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 80px;
 }
