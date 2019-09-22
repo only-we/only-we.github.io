@@ -36,8 +36,9 @@
 	border-radius: 50%;
 	box-shadow: 0 0 50px #e47914;
 	position: absolute;
-	left: -175px;
-	bottom: -175px;
+	transform: translate(-250px, 25%);
+/*	left: -175px;
+	bottom: -175px;*/
 	transition: 3s;
 	-webkit-animation: rad 20s linear infinite;
 	-moz-animation: rad 20s linear infinite;
@@ -198,93 +199,75 @@
 @-moz-keyframes rad {
 
 	0% {
-		left: -175px;
-		bottom: -175px;
+		left: calc(0% + 150px);
+		bottom: calc(0% - 150px);
 	}
-
 	25% {
-		left: calc(25% - 150px);
-		bottom: 45%;
+		left: calc(25% + 150px);
+		bottom: calc(45% - 150px);
 	}
-
-
 	50% {
-		left: calc(50% - 150px);
-		bottom: 90%;
+		left: calc(50% + 150px);
+		bottom: calc(90% - 150px);
 	}
-
 	75% {
-		left: calc(75% - 150px);
-		bottom: 45%;
+		left: calc(75% + 150px);
+		bottom: calc(45% - 150px);
 	}
-
-
 	100% {
-		left: calc(100% + 175px);
-		bottom: -175px;
-	}
+		left: calc(100% + 150px);
+		bottom: calc(0% - 150px);
+	} 
 
 }
 
 @-webkit-keyframes rad {
 
 	0% {
-		left: -175px;
-		bottom: -175px;
+		left: calc(0% + 150px);
+		bottom: calc(0% - 150px);
 	}
-
 	25% {
-		left: calc(25% - 150px);
-		bottom: 45%;
+		left: calc(25% + 150px);
+		bottom: calc(45% - 150px);
 	}
-
-
 	50% {
-		left: calc(50% - 150px);
-		bottom: 90%;
+		left: calc(50% + 150px);
+		bottom: calc(90% - 150px);
 	}
-
 	75% {
-		left: calc(75% - 150px);
-		bottom: 45%;
+		left: calc(75% + 150px);
+		bottom: calc(45% - 150px);
 	}
-
-
 	100% {
-		left: calc(100% + 175px);
-		bottom: -175px;
-	}
+		left: calc(100% + 150px);
+		bottom: calc(0% - 150px);
+	} 
 
 }
 
 @-o-keyframes rad {
 
 	0% {
-		left: -175px;
-		bottom: -175px;
+		left: calc(0% + 150px);
+		bottom: calc(0% - 150px);
 	}
-
 	25% {
-		left: calc(25% - 150px);
-		bottom: 45%;
+		left: calc(25% + 150px);
+		bottom: calc(45% - 150px);
 	}
-
-
 	50% {
-		left: calc(50% - 150px);
-		bottom: 90%;
+		left: calc(50% + 150px);
+		bottom: calc(90% - 150px);
 	}
-
 	75% {
-		left: calc(75% - 150px);
-		bottom: 45%;
+		left: calc(75% + 150px);
+		bottom: calc(45% - 150px);
 	}
-
-
 	100% {
-		left: calc(100% + 175px);
-		bottom: -175px;
-	}
+		left: calc(100% + 150px);
+		bottom: calc(0% - 150px);
+	} 
 
 }
 

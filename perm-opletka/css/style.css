@@ -134,10 +134,6 @@ li {
 	transition: all .4s ease;
 }
 
-/*.slide:hover {
-	transform: scale(1.1);
-}*/
-
 .prew {
 	position: absolute;
 	font-size: 40px;
