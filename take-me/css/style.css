@@ -327,3 +327,70 @@ body {
 	padding: 85px 0;
 	margin: 0 auto;
 }
+
+.slider-box {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.slider {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 76px 0;
+}
+
+.slides-one {
+	background-image: url(../img/oneslid.png);
+}
+
+.slides-two {
+	background-image: url(../img/twoslid.png);
+}
+
+.slides-three {
+	background-image: url(../img/threeslid.png);
+}
+
+.slideres {
+	width: 371px;
+	height: 260px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.star-slider {
+	text-align: right;
+	padding: 20px 20px 0 0;
+}
+
+.visited-top-right {
+	float: right;
+	padding: 10px 20px 0 0;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.text-slide {
+	margin-top: 35%;
+	margin-left: 5%;
+}
+
+.text {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.h4-title-slider {
+	color: #ffffff;
+	font-size: 36px;
+}
+
+.slide-btn {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
