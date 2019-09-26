@@ -394,3 +394,69 @@ body {
 	background-color: transparent;
 	cursor: pointer;
 }
+
+.min-block {
+	width: 100%;
+	height: 280px;
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.text-in-min-block {
+	width: 60%;
+	height: auto;
+	float: left;
+	padding: 89px 0 89px 115px;
+}
+
+.h4-title-min-block {
+	color: #868686;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.p-text-min-block {
+	color: #868686;
+	margin-top: 28px;
+}
+
+.wrapper-button-min-block {
+	width: 40%;
+	height: auto;
+	float: right;
+	padding: 115px;
+}
+
+.min-block-btn {
+	border: none;
+	cursor: pointer;
+	width: 272px;
+	height: 50px;
+	border-radius: 6px;
+	background-color: #3ec6ff;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.contact-form {
+	width: 100%;
+	height: 670px;
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.block-form {
+	float: left;
+}
+
+.h3-title-form {
+	color: #868686;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.inner-img-form {
+	float: right;
+}
