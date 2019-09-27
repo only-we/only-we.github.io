@@ -538,5 +538,7 @@ body {
 	background-color: #3ec6ff;
 	color: #ffffff;
 	border: none;
+	font-size: 16px;
 	margin: 20px auto 20px auto;
+	cursor: pointer;
 }
