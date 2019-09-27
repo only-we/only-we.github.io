@@ -464,15 +464,14 @@ body {
 	width: 40%;
 }
 
-/*.img-form {
-	width: 587px;
+.img-form {
+	width: 100%;
 	height: 670px;
-}*/
+}
 
 .inner-form {
 	width: 100%;
 	height: auto;
-	clear: both;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -540,5 +539,117 @@ body {
 	border: none;
 	font-size: 16px;
 	margin: 20px auto 20px auto;
+	cursor: pointer;
+}
+
+.reviews {
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #f6f6f6;
+}
+
+.header-row {
+	width: 100%;
+	height: 89px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 115px;
+}
+
+.reviews-row {
+	color: #868686;
+}
+
+.select-reviews {
+	width: 126px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	color: #868686;
+	text-align: center;
+	font-size: 16px;
+	border: none;
+}
+
+.post-a {
+	color: #868686;
+	font-size: 14px;
+	line-height: 25px;
+	background-color: #fff;
+	width: 172px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.inner-reviews {
+	padding: 0 130px;
+	width: 100%;
+}
+
+/*.user-block {
+	
+}*/
+
+.img-user {
+	float: left;
+	padding: 20px;
+}
+
+.name-and-city {
+	float: right;
+	color: #868686;
+	font-size: 14px;
+	margin-top: 25px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.star-user {
+	margin-top: 20px;
+	float: right;
+	margin-right: 10px;
+}
+
+.title-review-in-user {
+	color: #343434;
+}
+
+.text-review-in-user {
+	color: #868686;
+	font-size: 14px;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+.review-in-user {
+	padding: 5px 10px;
+	border-left: 1px solid #e2e2e2;
+}
+
+.block-review {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.review-btn {
+	display: block;
+	width: 172px;
+	height: 45px;
+	border-radius: 6px;
+	border: none;
+	background-color: #3ec6ff;
+	color: #ffffff;
+	font-size: 16px;
+	margin: 56px auto 56px auto;
 	cursor: pointer;
 }
