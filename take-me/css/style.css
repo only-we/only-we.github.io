@@ -666,7 +666,75 @@ body {
 
 .choice-travel {
 	width: 100%;
-	height: 214px;
+	height: auto;
 	margin-top: 20px;
 	background-color: #f6f6f6;
+}
+
+.inner-choice-travel {
+	padding: 56px 115px 65px 115px;
+}
+
+.title-text {
+	color: #868686;
+	font-size: 18px;
+}
+
+.one-line-choice-travel {
+	margin-top: 39px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.list-view,
+.map-view {
+	color: #666666;
+	margin: 0 15px;
+	transition: all .2s ease;
+} 
+
+.list-view:hover,
+.map-view:hover {
+	color: #3ec6ff;
+	cursor: pointer;
+}
+
+.list-view,
+.map-view,
+.option-block-view,
+.select-block-view {
+	display: inline-block;
+}
+
+.select-block-view {
+	width: 172px;
+	height: 50px;
+	margin-left: 10px;
+	border-radius: 4px;
+	color: #000;
+	background-color: #ffffff;
+}
+
+.usa,
+.new-york,
+.city-live,
+.cheap {
+	display: inline-block;
+	color: #868686;
+	background-color: #fff;
+	padding: 0 5px;
+	font-size: 15px;
+	line-height: 40px;
+	width: 125px;
+	height: 40px;
+}
+
+.times {
+	display: inline-block;
+	font-size: 30px;
+	float: right;
+	color: #000;
+	line-height: 40px;
+	cursor: pointer;
 }
