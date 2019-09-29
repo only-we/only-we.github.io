@@ -47,10 +47,18 @@
 
 		<footer class="footer"></footer>
 		<a class="up" href="#">Up</a>
+		<span class="preloader">Идет Загрузка...</span>
 	</div>
 
+	<script>
+		window.addEventListener("load", function () {
+			let preloader = document.querySelector(".preloader");
+			preloader.style.display = "none";
+		});
+	</script>
 
-	<script type="text/javascript">
+
+	<script>
 		let logout = document.querySelector(".log-out");
 		let wrap = document.querySelector(".wrap-text-title-block");
 		logout.addEventListener("click", function () {
