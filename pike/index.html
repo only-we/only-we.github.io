@@ -18,7 +18,7 @@
 					<ul class="ul-link">
 						<li class="li-link"><a href="#me" class="link">Обо мне</a></li>
 						<li class="li-link"><a href="#skill" class="link">Навыки</a></li>
-						<li class="li-link"><a href="#portfolio" class="link">Пртфолио</a></li>
+						<li class="li-link"><a href="#portfolio" class="link">Портфолио</a></li>
 					</ul>
 				</nav>
 				<div class="wrap-logout">
@@ -26,7 +26,10 @@
 				</div>
 			</header>
 			<div class="wrap-text-title-block">
-				Hello I am Pike
+				<div class="inner-text-title-block">
+					Привет, я <span class="jun"> Junior</span><span class="span-web"> Web</span><snap class="developer"> Developer.</snap><br>
+					Сегодня я познакомлю тебя с моим портфолио.
+				</div>
 			</div>
 		</section>
 
@@ -45,5 +48,24 @@
 		<footer class="footer"></footer>
 		<a class="up" href="#">Up</a>
 	</div>
+
+
+	<script type="text/javascript">
+		let logout = document.querySelector(".log-out");
+		let wrap = document.querySelector(".wrap-text-title-block");
+		logout.addEventListener("click", function () {
+			let move = -550;
+			setInterval(function () {
+				if (move <= -50) {
+					move++;
+					wrap.style.top = move + "px";
+
+				}
+			setTimeout(function () {
+				wrap.style.display = "none";
+			}, 8000)
+			}, 1)
+		});
+	</script>
 </body>
 </html>

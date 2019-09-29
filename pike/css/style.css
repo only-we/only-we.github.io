@@ -133,14 +133,36 @@
 }
 
 .wrap-text-title-block {
-	display: none;
 	width: 600px;
 	height: 350px;
 	margin: 0 auto;
 	background: rgba(30, 30, 30, .8);
 	margin: 200px auto 0 auto;
 	border-radius: 7px;
-	position: relative;
+	position: absolute;
+	right: 50%;
+	left: 50%;
+	top: -550px;
+	transform:translateX(-50%);
+}
+
+.inner-text-title-block {
+	color: #fff;
+	font-size: 20px;
+	padding: 20% 15%;
+	line-height: 30px;
+}
+
+.jun {
+	color: #38de1d;
+}
+
+.span-web {
+	color: yellow;
+}
+
+.developer {
+	color: red;
 }
 
 .me {
