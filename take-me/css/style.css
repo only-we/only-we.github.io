@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-	width: 1400px;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	display: flex;
@@ -601,10 +601,6 @@ body {
 	width: 100%;
 }
 
-/*.user-block {
-	
-}*/
-
 .img-user {
 	float: left;
 	padding: 20px;
@@ -1100,7 +1096,7 @@ body {
 
 .see {
 	margin-top: 20px;
-	width: 1400px;
+	width: 100%;
 	height: 654px;
 	background: url(../img/seebg.png);
 	background-repeat: no-repeat;
@@ -1315,3 +1311,11 @@ body {
 	text-align: center;
 	line-height: 50px;
 }
+
+
+
+/*MEDIA QURIES*/
+
+
+
+@media 
