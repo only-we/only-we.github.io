@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>I am web developer</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	<div class="wrapper">
@@ -17,8 +17,8 @@
 				<nav class="navigation" id="speed-link">
 					<ul class="ul-link">
 						<li class="li-link"><a href="#me" class="link">Обо мне</a></li>
-						<li class="li-link"><a href="#portfolio" class="link">Портфолио</a></li>
 						<li class="li-link"><a href="#skill" class="link">Навыки</a></li>
+						<li class="li-link"><a href="#portfolio" class="link">Пртфолио</a></li>
 					</ul>
 				</nav>
 				<div class="wrap-logout">
@@ -34,24 +34,16 @@
 			<a href="#" name="me"></a>
 		</section>
 
-		<section class="skill"></section>
+		<section class="skill">
+			<a href="#" name="skill"></a>
+		</section>
 
 		<section class="portfolio">
-
+			<a href="#" name="portfolio"></a>
 		</section>
 
 		<footer class="footer"></footer>
+		<a class="up" href="#">Up</a>
 	</div>
-
-	<script>
- 		$(document).ready(function(){
-    	$("#speed-link").on("click","a", function (event) {
-        event.preventDefault();
-        var id  = $(this).attr('href'),
-        top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
-    		});
-		});
-	</script>
 </body>
 </html>
