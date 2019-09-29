@@ -5,29 +5,53 @@
 	<title>I am web developer</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
-		<section class="one-block">
-			<div class="top-block"></div>
+		<section class="title-block">
+			<header class="header-page">
+				<div class="wrap-logo">
+					<span class="logo">Pike</span>
+				</div>
+				<nav class="navigation" id="speed-link">
+					<ul class="ul-link">
+						<li class="li-link"><a href="#me" class="link">Обо мне</a></li>
+						<li class="li-link"><a href="#portfolio" class="link">Портфолио</a></li>
+						<li class="li-link"><a href="#skill" class="link">Навыки</a></li>
+					</ul>
+				</nav>
+				<div class="wrap-logout">
+					<button class="log-out">Log Out</button>
+				</div>
+			</header>
+			<div class="wrap-text-title-block">
+				Hello I am Pike
+			</div>
 		</section>
+
+		<section class="me">
+			<a href="#" name="me"></a>
+		</section>
+
+		<section class="skill"></section>
+
+		<section class="portfolio">
+
+		</section>
+
+		<footer class="footer"></footer>
 	</div>
 
-
-
 	<script>
-		let topBlock;
-		let move = 0;
-		topBlock = document.querySelector(".top-block");
-		
-		setTimeout(function () {
-				setInterval(function () {
-					if (move <= 40) {
-						move++;
-						topBlock.style.top = move + "%";
-					}
-				}, 1000 / 60)
-		}, 1200);
+ 		$(document).ready(function(){
+    	$("#speed-link").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    		});
+		});
 	</script>
 </body>
 </html>
