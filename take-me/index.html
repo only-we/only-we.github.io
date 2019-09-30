@@ -731,6 +731,13 @@
 					<div class="inner-text-address">Автор: Александр Щукин 2019</div>
 				</address>
 			</footer>
+			<span class="preloader">Идет Загрузка...</span>
 		</div>
+		<script>
+			window.addEventListener("load", function () {
+			let preloader = document.querySelector(".preloader");
+			preloader.style.display = "none";
+		});
+	</script>
 	</body>
 </html>

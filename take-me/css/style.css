@@ -21,6 +21,20 @@ body {
 	font-weight: 400;
 }
 
+.preloader {
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: #000;
+	padding: 200px;
+}
+
 .header-page {
 	background-color: #fff;
 	width: 100%;
@@ -202,11 +216,13 @@ body {
 
 .inner-left-block-santorini {
 	width: 50%;
+	height: 100%;
 	float: left;
 }
 
 .inner-text-block-santorini {
-	padding: 100px;
+	padding: 100px 100px 0 100px;
+	height: 100%;
 }
 
 .h2-title-santorini {
@@ -234,15 +250,29 @@ body {
 
 .inner-right-block-santorini {
 	width: 50%;
+	height: 100%;
 	float: right;
 }
 
-.three-img-santorini {
+/*.three-img-santorini {
 	margin: 50px 0px 50px 0px;
 }
 
 .img-santorini {
 	width: 220px;
+	height: 415px;
+	margin: 0 5px;
+}*/
+
+.three-img-santorini {
+	margin: 50px 0px 50px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.img-santorini {
+	width: 30%;
 	height: 415px;
 	margin: 0 5px;
 }
@@ -338,7 +368,7 @@ body {
 .slider {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 76px 0;
 }
 
@@ -424,7 +454,7 @@ body {
 	width: 40%;
 	height: auto;
 	float: right;
-	padding: 115px;
+	padding: 115px 0 0 115px;
 }
 
 .min-block-btn {
@@ -601,6 +631,10 @@ body {
 	width: 100%;
 }
 
+.user-block {
+	
+}
+
 .img-user {
 	float: left;
 	padding: 20px;
@@ -626,6 +660,7 @@ body {
 }
 
 .text-review-in-user {
+	width: 100%;
 	color: #868686;
 	font-size: 14px;
 	font-style: italic;
@@ -641,7 +676,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	width: 100%;
 	border-top: 1px solid #e2e2e2;
 	border-bottom: 1px solid #e2e2e2;
@@ -1318,4 +1353,71 @@ body {
 
 
 
-@media 
+@media (max-width: 1230px) {
+.logo {
+	padding: 24px;
+	margin-left: calc(115px - 94px);
+}
+.text-inside-one-input,
+.text-inside-one-input {
+	margin-top: 40px;
+}
+.input-one {
+	height: 46px;
+	width: 252px;
+	margin: 0 10px 0 10px;
+	font-size: 15px;
+}
+.one-btn {
+	width: 164px;
+	height: 46px;
+	border-radius: 6px;
+	background-color: #3ec6ff;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+}
+.h2-title-santorini {
+	font-size: 38px;
+}
+.one-city-block,
+.two-city-block,
+.three-city-block {
+	width: 30%;
+	height: auto;
+}
+.inner-city-block {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 85px 10px;
+	margin: 0 auto;
+}
+.img-city-block {
+	width: 100%;
+	height: 100%;
+}
+.slideres {
+	width: 100%;
+	height: 100%;
+}
+.slides-one,
+.slides-two,
+.slides-three {
+	margin: 0 20px;
+}
+.h4-title-slider {
+	font-size: 28px;
+}
+.text-in-min-block {
+	width: 60%;
+	height: auto;
+	float: left;
+	padding: 89px 0 0 115px;
+}
+.h4-title-min-block {
+	font-size: 40px;
+}
+}

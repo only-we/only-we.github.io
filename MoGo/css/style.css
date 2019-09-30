@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body {
+	color: #333;
+	font-size: 15px;
+	line-height: 1.6;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background: url(../img/intro.webp) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.intro__inner {
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro__suptitle {
+	font-size: 65px;
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.intro__title {
+	font-size: 100px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	line-height: 1;
+}
+
+.intro .container .intro__inner .btn {
+	vertical-align: top;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 30px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .2s linear;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: red;
+}
+
+.intro__title::after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	margin: 60px auto;
+}
+
+.header {
+	padding: 30px 0 0 0;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	font-size: 38px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.nav {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.nav__link {
+	color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	text-decoration: none;
+	transition: color .2s linear;
+	position: relative;
+}
+
+.nav__link::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	opacity: 0;
+	background-color: #fce38a;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transition: opacity .2s linear;
+}
+
+.nav__link:hover::after {
+	opacity: 1;
+}
+
+.nav__link:hover {
+	color: #fce38a;
+}

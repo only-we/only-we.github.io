@@ -23,7 +23,7 @@
 					</ul>
 
 					<div class="burger-menu">
-						<img class="bur" id="bur" onclick="openMenu()" src="https://img.icons8.com/cotton/64/000000/menu.png">
+						<img class="bur" id="bur" onclick="openMenu()" src="img/burger-menu-icon-18.jpg.png">
 					<nav class="burger" id="burger">
 						<ul>
 							<li class="list-bur">Home</li>
@@ -427,6 +427,7 @@
 			<footer class="footer">
 				<address>Александр Щукин 2019</address>
 			</footer>
+			<span class="preloader">Идет Загрузка...</span>
 	</div>
 		<script>
 		function openMenu() {
@@ -438,6 +439,12 @@
 					burger.style.display = "block";
 				}
 			};
+	</script>
+	<script>
+			window.addEventListener("load", function () {
+			let preloader = document.querySelector(".preloader");
+			preloader.style.display = "none";
+		});
 	</script>
 </body>
 </html>
