@@ -1,0 +1,24 @@
+.animation {
+	animation-name: transformation;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-delay: .1s;
+}
+
+@keyframes transformation {
+	50% {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+}
+
+.particles-js-canvas-el {
+	position: absolute;
+	background-color: #c141cc;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+} 

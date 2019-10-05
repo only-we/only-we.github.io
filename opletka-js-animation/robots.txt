@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /index.pnp
+Allow: /img
+Disallow: /css
+Disallow: /js
+Disallow: /php

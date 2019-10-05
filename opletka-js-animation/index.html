@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Оплетка руля Пермь оплетка для руля вашего автомобиля">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<title>Оплетка руля Пермь</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header-page">
+			<div class="logo"></div>
+			<h1 class="title-home">Оплетка руля</h1>
+			<div class="city">город: Пермь</div>
+		</header>
+		<main class="main-content" id="particles-js">
+			<section class="section-content">
+				<h2 class="opletka">Для чего нужна оплетка?</h2>
+				<div class="content">
+					<p class="description">В первую очередь для защиты руля от истирания,
+						для скрытия потертостей на руле.
+						Оплетка улучшает сцепление между руками водителя и 
+						автомобильным рулем, исключает скольжение рук по 
+						рулю и его прокручивание. Утолщение руля при появлении 
+						оплетки помогает лучше чувствовать руль.
+						А так же оплетка отлично впишется в дизайн салона вашего 
+						автомобиля.
+					</p>
+					<span class="span-text">Почему стоит заказать оплетку на руль у нас?</span>
+					<ul>
+						<li>Установка занимает не более 1 часа</li>
+						<li>Фиксированная цена 700руб</li>
+						<li>Гарантия 2 недели</li>
+					</ul>
+					<button id="btnSend" class="btnSend">Оставить заявку!</button>
+
+					<form id="formSend" class="formSend" method="POST" action="php/write.php" enctype="multipart/form-data">
+						<input id="first_name" class="input-form" type="text" name="first_name" placeholder="Введите ваше имя" autofocus="autofocus" required>
+						<input id="auto_name" class="input-form" type="text" name="auto_name" placeholder="Марка автомобиля" required>
+						<input id="size_in_auto" class="input-form" type="text" name="size_in_auto" placeholder="Укажите диаметр руля" required><br>
+						<input id="user-email" class="input-form" type="email" name="email" placeholder="Укажите ваш E-mail" required>
+						<input id="telephone" class="input-form" type="tel" name="phone" placeholder="Укажиет ваш номер телефона" maxlength="12" required>
+						<input class="input-form file-input" type="file" name="files" accept="image/*" title="Загрузить фото">
+						<input class="btnForm" type="submit" name="button" id="btnForm">
+						<span class="closed">Закрыть</span>
+					</form>
+				</div>
+			</section>
+
+			<div class="slider-box">
+				<div class="wrap-slider">
+					<div class="slider">
+						<a class="prew" onclick="pluseSlides(-1)">&#10094</a>
+						<a class="next" onclick="pluseSlides(1)">&#10095</a>
+
+						<div class="myslides">
+							<img src="img/2.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/3.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/4.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/5.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/6.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/7.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/8.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/9.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/10.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/11.jpg" alt="#" class="slide">
+						</div>
+						<div class="myslides">
+							<img src="img/12.jpg" alt="#" class="slide">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="map-box">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1056.909059609538!2d56.2208591496992!3d58.00784786682071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e8c73b35b36cb1%3A0xc893889a02ae2c81!2z0YPQuy4g0JvQtdC90LjQvdCwLCA3MtCQLCDQn9C10YDQvNGMLCDQn9C10YDQvNGB0LrQuNC5INC60YDQsNC5LCA2MTQwNjg!5e0!3m2!1sru!2sru!4v1567254285699!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+					
+				</iframe>
+			</div>
+		</main>
+		<footer class="footer">
+			<address>Автор веб - сайта <a class="mylink" href="https://vk.com/iampike">Александр Щукин</a></address>
+		</footer>
+	</div>
+	<script src="js/slider.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/lib/stats.js"></script>
+</body>
+</html>
